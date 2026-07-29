@@ -39,7 +39,7 @@ data/raw/
 
 # Generated processed arrays
 # (can be recreated from notebooks)
-data/processed/*.npy
+data/processed/
 
 
 # =====================================
