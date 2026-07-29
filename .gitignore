@@ -19,7 +19,6 @@ venv/
 env/
 ENV/
 
-
 # =====================================
 # Jupyter Notebook
 # =====================================
@@ -27,32 +26,22 @@ ENV/
 # Jupyter checkpoints
 .ipynb_checkpoints/
 
-
 # =====================================
 # Dataset
 # =====================================
 
-# Raw Kaggle datasets
-# (fake.csv and true.csv)
 data/raw/
-
-
-# Generated processed arrays
-# (can be recreated from notebooks)
 data/processed/
-
 
 # =====================================
 # Machine Learning Models
 # =====================================
 
 # Trained TensorFlow/Keras models
-models/*.keras
 models/*.h5
 
 # Saved checkpoints
 models/checkpoints/
-
 
 # =====================================
 # Outputs
@@ -63,7 +52,6 @@ outputs/figures/
 
 # Evaluation results
 outputs/metrics/
-
 
 # =====================================
 # TensorFlow / Keras
@@ -77,7 +65,6 @@ logs/
 runs/
 tensorboard/
 
-
 # =====================================
 # IDE / Editor
 # =====================================
@@ -87,7 +74,6 @@ tensorboard/
 
 # PyCharm
 .idea/
-
 
 # =====================================
 # Operating System
@@ -99,7 +85,6 @@ Desktop.ini
 
 # macOS
 .DS_Store
-
 
 # =====================================
 # Temporary files
