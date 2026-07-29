@@ -1,26 +1,110 @@
+# =====================================
 # Python
+# =====================================
+
+# Byte-compiled / cache files
 __pycache__/
 *.py[cod]
+*$py.class
 
-# Jupyter
-.ipynb_checkpoints/
+# Python build files
+build/
+develop-eggs/
+dist/
+*.egg-info/
 
-# Virtual environment
+# Virtual environments
 venv/
 .venv/
+env/
+ENV/
 
+
+# =====================================
+# Jupyter Notebook
+# =====================================
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+
+# =====================================
 # Dataset
-data/raw/
-data/processed/
+# =====================================
 
-# Model files
+# Raw Kaggle datasets
+# (fake.csv and true.csv)
+data/raw/
+
+
+# Generated processed arrays
+# (can be recreated from notebooks)
+data/processed/*.npy
+
+
+# =====================================
+# Machine Learning Models
+# =====================================
+
+# Trained TensorFlow/Keras models
 models/*.keras
 models/*.h5
 
+# Saved checkpoints
+models/checkpoints/
+
+
+# =====================================
 # Outputs
-outputs/metrics/
+# =====================================
+
+# Generated figures
 outputs/figures/
 
-# OS
-.DS_Store
+# Evaluation results
+outputs/metrics/
+
+
+# =====================================
+# TensorFlow / Keras
+# =====================================
+
+# TensorFlow logs
+logs/
+*.log
+
+# TensorBoard
+runs/
+tensorboard/
+
+
+# =====================================
+# IDE / Editor
+# =====================================
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+
+# =====================================
+# Operating System
+# =====================================
+
+# Windows
 Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+
+# =====================================
+# Temporary files
+# =====================================
+
+*.tmp
+*.temp
+*.bak
